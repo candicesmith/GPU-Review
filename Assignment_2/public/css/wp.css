@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap');
+
+#header {
+    position: relative;
+    z-index: 50;
+}
+
+#content {
+    position: relative;
+    z-index: 30;
+    height: 100%;
+    display: flex;
+}
+
+html, body { 
+    min-height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    /* background-image: url('../images/background3.jpg');  */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.filled-height {
+    height: 500px;
+}
+
+h1 { font-weight: bold; color: #003399; }
+h2 { font-weight: bold; color: #006666; }
+h3 { font-weight: bold; color: #009933; }
+h4 { font-weight: bold; font-style: italic; color: #669900; }
+
+p { margin-left: 0em; }
+
+table { font-family: Verdana, Arial, Helvetica, sans-serif; }
+caption { font-weight: bold; }
+th { font-weight: bold; padding: 2px; }
+td { padding: 2px; }
+/* tr { background-color: white; } */
+
+table.bordered    { border: solid; border-width: thin; }
+table.bordered td { border: solid; border-width: thin; }
+table.bordered th { border: solid; border-width: thin; border-color: black; }
+
+address { margin-left: 0in; font-style: italic; }       
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+.alert { font-weight: bold; font-style: italic; color: red; margin: 0%; }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.eg { 
+    font-family: Monaco, Courier, "Courier New", monospace;
+    background-color: #FFFFE0;
+    border-style: groove; 
+    border: thin;
+    padding: 5px;
+}
+
+.antispam { display:none; }
+
+.border {
+    background-color: white;
+}
+
+.nav-title {
+    font-size: xx-large;
+    padding-left: 10px;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+}
+
+.sidebar-text:hover{
+    background-color: rgb(0, 68, 196);
+}
+
+.product-title {
+    color: rgb(53, 122, 183);
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.product-title-small {
+    color: rgb(53, 122, 183);
+    font-weight: 500;
+    font-size: larger;
+}
+
+.product-title-list {
+    color: rgb(53, 122, 183);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.product-price {
+    color: rgb(53, 122, 183);
+    font-weight: 1200;
+    font-size: 30px;
+    text-align: right;
+}
+
+.product-description {
+    font-size: 14px;
+    padding-left: 50px;
+}
+
+.product-image {
+    padding-top: 20px;
+    height: 300px;
+}
+
+.nav-colour {
+    background-image: linear-gradient(90deg, #001763 0%, #7353ff 100%);
+}
+
+.sidebar-colour {
+    height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    z-index: 99;
+    background-image: linear-gradient(90deg, #001763 0%, #14217E 90%);
+}
+
+.parent-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 40px calc((100% - (255px * 10)) / 2);
+}
+
+.flex-item {
+    flex: 0 0 315px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 8px;
+    border: 1px rgb(221, 221, 221) solid;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+.logout-button {
+    background-color: transparent; 
+    cursor: pointer;
+}
+
+.review {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.popular-review {
+    box-sizing: border-box;
+    border-color: green;
+}
+
+.unpopular-review {
+    box-sizing: border-box;
+    border-color: red;
+}
+
+textarea#styled {
+	width: 100%;
+	height: 120px;
+    box-sizing: border-box;
+	padding: 5px;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
